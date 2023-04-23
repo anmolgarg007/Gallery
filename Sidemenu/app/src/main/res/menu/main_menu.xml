@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+
+    <item
+        android:id="@+id/recent"
+        android:title="Recent"
+        android:checked="false"
+        android:icon="@drawable/ic_baseline_recent_actors_24"
+        android:checkable="true"
+        />
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:checkable="true"
+        android:actionLayout=""/>
+    <item
+        android:id="@+id/attendance"
+        android:title="Attendance"
+        android:icon="@drawable/ic_baseline_emoji_people_24"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/about_us"
+        android:title="About Us"
+        android:icon="@drawable/ic_baseline_contacts_24"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_baseline_login_24"
+        android:title="Logout"
+        android:checkable="true"/>
+    </group>
+
+
+
+</menu>

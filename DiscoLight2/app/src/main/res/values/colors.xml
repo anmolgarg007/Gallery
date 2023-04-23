@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="red">#DB0B0B</color>
+
+    <color name="blue">#075DC6</color>
+
+    <color name="green">#4CE40B</color>
+
+    <color name="yellow">#EAB30D</color>
+
+    <color name="pink">#E80DCB</color>
+
+    <color name="LightPink">#FFB6C1</color>
+    <color name="Orange">#FFA500</color>
+    <color name="LightSalmon">#FFA07A</color>
+    <color name="DarkOrange">#FF8C00</color>
+    <color name="Coral">#FF7F50</color>
+    <color name="HotPink">#FF69B4</color>
+    <color name="Tomato">#FF6347</color>
+    <color name="OrangeRed">#FF4500</color>
+    <color name="DeepPink">#FF1493</color>
+    <color name="Fuchsia">#FF00FF</color>
+    <color name="Magenta">#FF00FF</color>
+    <color name="Red">#FF0000</color>
+
+    <color name="LightSkyBlue">#87CEFA</color>
+    <color name="SkyBlue">#87CEEB</color>
+    <color name="Gray">#808080</color>
+    <color name="Olive">#808000</color>
+    <color name="Purple">#800080</color>
+    <color name="Maroon">#800000</color>
+    <color name="Aquamarine">#7FFFD4</color>
+    <color name="Chartreuse">#7FFF00</color>
+    <color name="LawnGreen">#7CFC00</color>
+    <color name="LimeGreen">#32CD32</color>
+    <color name="DarkSlateGray">#2F4F4F</color>
+    <color name="SeaGreen">#2E8B57</color>
+    <color name="ForestGreen">#228B22</color>
+    <color name="LightSeaGreen">#20B2AA</color>
+    <color name="DodgerBlue">#1E90FF</color>
+    <color name="MidnightBlue">#191970</color>
+    <color name="Aqua">#00FFFF</color>
+    <color name="Cyan">#00FFFF</color>
+    <color name="SpringGreen">#00FF7F</color>
+    <color name="Lime">#00FF00</color>
+    <color name="MediumSpringGreen">#00FA9A</color>
+    <color name="DarkTurquoise">#00CED1</color>
+    <color name="DeepSkyBlue">#00BFFF</color>
+    <color name="DarkCyan">#008B8B</color>
+    <color name="Teal">#008080</color>
+    <color name="Green">#008000</color>
+    <color name="DarkGreen">#006400</color>
+    <color name="Blue">#0000FF</color>
+    <color name="MediumBlue">#0000CD</color>
+    <color name="DarkBlue">#00008B</color>
+    <color name="Navy">#000080</color>
+    <color name="Black">#000000</color>
+</resources>

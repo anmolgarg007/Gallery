@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "317830693335",
+    "project_id": "musicplayer-359710",
+    "storage_bucket": "musicplayer-359710.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317830693335:android:163c6dca225755bb9d4b92",
+        "android_client_info": {
+          "package_name": "com.company.musicplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317830693335-a6p1spg7kduk8ijflt2v6ui8bsn6chti.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.musicplayer",
+            "certificate_hash": "bf38391f807271edf13fc75bb5c044727fc4c391"
+          }
+        },
+        {
+          "client_id": "317830693335-npnr1is18ecr4l5tkkbjq8198md5f76r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADTn5Gt_ECnUxSM9HnhQ9_A1mGhLoPQCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317830693335-79gti7uq2kr9mc1aqtgdf0mb7fblpbk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317830693335:android:48d6f81764d55d2c9d4b92",
+        "android_client_info": {
+          "package_name": "com.example.musicplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317830693335-npnr1is18ecr4l5tkkbjq8198md5f76r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADTn5Gt_ECnUxSM9HnhQ9_A1mGhLoPQCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317830693335-79gti7uq2kr9mc1aqtgdf0mb7fblpbk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

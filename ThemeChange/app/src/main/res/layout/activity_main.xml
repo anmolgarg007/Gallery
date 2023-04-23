@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="408dp"
+        android:layout_height="726dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/btn_blue"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="121dp"
+            android:layout_height="49dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Blue"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_green"
+            app:layout_constraintEnd_toStartOf="@+id/btn_red"
+            app:layout_constraintHorizontal_bias="0.456"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.724"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="88dp" />
+
+        <Button
+            android:id="@+id/btn_red"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="116dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="84dp"
+            android:layout_marginBottom="72dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Red"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_yellow"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.95"
+            tools:layout_conversion_absoluteHeight="0dp"
+            tools:layout_conversion_absoluteWidth="0dp" />
+
+        <Button
+            android:id="@+id/btn_green"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="118dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="336dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Green"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="121dp" />
+
+        <Button
+            android:id="@+id/btn_yellow"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="72dp"
+            android:layout_marginBottom="332dp"
+            android:baselineAligned="false"
+            android:fontFamily="sans-serif-medium"
+            android:text="Yellow"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.862"
+            app:layout_constraintStart_toEndOf="@+id/btn_green"
+            tools:layout_conversion_absoluteHeight="47dp"
+            tools:layout_conversion_absoluteWidth="121dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

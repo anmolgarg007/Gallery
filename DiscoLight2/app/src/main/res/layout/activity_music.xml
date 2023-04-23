@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicActivity">
+
+    <FrameLayout
+        android:id="@+id/f1m"
+        android:layout_width="205dp"
+        android:layout_height="138dp"
+        android:rotation="30"
+        android:rotationX="49"
+        android:rotationY="-32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/musicstart"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/red"
+        android:text="Start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <FrameLayout
+        android:id="@+id/f10m"
+        android:layout_width="205dp"
+        android:layout_height="138dp"
+        android:rotation="30"
+        android:rotationX="49"
+        android:rotationY="-32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/f2m"
+        android:layout_width="205dp"
+        android:layout_height="138dp"
+        android:rotation="30"
+        android:rotationX="49"
+        android:rotationY="-32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/f3m"
+        android:layout_width="205dp"
+        android:layout_height="138dp"
+        android:rotation="30"
+        android:rotationX="49"
+        android:rotationY="-32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/f4m"
+        android:layout_width="205dp"
+        android:layout_height="138dp"
+        android:rotation="30"
+        android:rotationX="49"
+        android:rotationY="-32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.004"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463">
+
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/f5m"
+        android:layout_width="205dp"
+        android:layout_height="138dp"
+        android:rotation="30"
+        android:rotationX="49"
+        android:rotationY="-32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468">
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/f6m"
+        android:layout_width="205dp"
+        android:layout_height="138dp"
+        android:rotation="30"
+        android:rotationX="49"
+        android:rotationY="-32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.004"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.699">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/f7m"
+        android:layout_width="205dp"
+        android:layout_height="138dp"
+        android:rotation="30"
+        android:rotationX="49"
+        android:rotationY="-32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.703">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/f8m"
+        android:layout_width="204dp"
+        android:layout_height="177dp"
+        android:rotation="30"
+        android:rotationX="49"
+        android:rotationY="-32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/f9m"
+        android:layout_width="207dp"
+        android:layout_height="178dp"
+        android:rotation="30"
+        android:rotationX="49"
+        android:rotationY="-32"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

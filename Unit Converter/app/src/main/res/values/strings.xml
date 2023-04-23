@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string name="text2">Unit Converter </string>
+    <string name="button"> Button </string>
+    <string name="enter_the_value">Enter the Value</string>
+    <string name="convert">Convert</string>
+    <string name="from">FROM:</string>
+    <string name="developed_by_anmol_garg">Developed By: ANMOL GARG</string>
+    <string name="to">TO:</string>
+</resources>

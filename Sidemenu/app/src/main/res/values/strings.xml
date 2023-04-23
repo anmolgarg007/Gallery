@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sidemenu</string>
+    <string name="navigation_drawer_open"> o </string>
+    <string name="navigation_drawer_close"> c </string>
+</resources>

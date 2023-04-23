@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <LinearLayout-->
+<!--            android:id="@+id/l1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_gravity="center">-->
+
+<!--            <com.google.android.material.tabs.TabLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/tab_layout"-->
+<!--                app:tabMode="scrollable">-->
+
+<!--                <com.google.android.material.tabs.TabItem-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Photo"-->
+
+<!--                    android:outlineAmbientShadowColor="@color/purple_700">-->
+
+<!--                </com.google.android.material.tabs.TabItem>-->
+<!--                <com.google.android.material.tabs.TabItem-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Album">-->
+<!--                </com.google.android.material.tabs.TabItem>-->
+<!--                <com.google.android.material.tabs.TabItem-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Drive"/>-->
+<!--            </com.google.android.material.tabs.TabLayout>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--    </ScrollView>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginTop="50dp">-->
+<!--        <GridView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:numColumns="auto_fit"-->
+<!--            android:horizontalSpacing="10dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            >-->
+<!--        </GridView>-->
+<!--    </LinearLayout>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+</LinearLayout>
